@@ -19,7 +19,7 @@ int main() {
 	cin >> kecepatan;
 
 	double totalMassa = massaSepeda + beratBadan;
-	hitungEk(totalMassa = massaSepeda, kecepatan);
+	hitungEk(totalMassa , kecepatan);
 
 	return 0;
 
