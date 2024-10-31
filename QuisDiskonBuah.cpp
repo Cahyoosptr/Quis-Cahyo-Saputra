@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 double total(double buahApel, double buahJeruk, double buahSemangka) {
@@ -32,6 +33,9 @@ int main()
 	cout << "Masukkan berat buah semangka dalam kg : "; cin >> buahSemangka;
 
 	cout << "Total : ";
+	cout << fixed << setprecision (2);
 	cout << total(buahApel, buahJeruk, buahSemangka);
+
+	return 0;
 
 }
