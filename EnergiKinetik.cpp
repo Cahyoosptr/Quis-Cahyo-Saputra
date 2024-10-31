@@ -1,8 +1,9 @@
-#include <iostream> 
+#include <iostream>
+#include <cmath>
 using namespace std;
 
 void hitungEk(double massa, double kecepatan) {
-	double energikinetik = 0.5 * massa * kecepatan * kecepatan;
+	double energikinetik = 0.5 * massa * pow(kecepatan,2);
 	cout << "Energi kinetik : " << energikinetik << " Joule" << endl;
 
 }
