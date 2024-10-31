@@ -11,7 +11,7 @@ void hitungEk(double massa, double kecepatan) {
 int main() {
 	double massaSepeda, beratBadan, kecepatan;
 
-	cout << "Masukkan massa sepeda (gram): ";
+	cout << "Masukkan massa sepeda (kg): ";
 	cin >> massaSepeda;
 	cout << "Masukkan massa Andika (kg): ";
 	cin >> beratBadan;
